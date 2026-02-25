@@ -1,5 +1,6 @@
 package com.alura.literalura.models;
 
+import com.alura.literalura.dto.DadosLivro;
 import jakarta.persistence.*;
 
 @Entity
@@ -9,15 +10,20 @@ public class Livro {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Column(unique = true)
+    private Long gutendexId;
+
     private String titulo;
     private String idioma;
     private Integer numeroDownloads;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "autor_id")
     private Autor autor;
 
     public Livro(DadosLivro dadosLivro, Autor autor) {
+        this.gutendexId = dadosLivro.gutendexId();
         this.titulo = dadosLivro.titulo();
         this.autor = autor;
         this.idioma = String.join(", ", dadosLivro.idiomas());
@@ -26,7 +32,13 @@ public class Livro {
 
     public Livro () {}
 
+    public Long getGutendexId() {
+        return gutendexId;
+    }
 
+    public void setGutendexId(Long gutendexId) {
+        this.gutendexId = gutendexId;
+    }
 
     public Long getId() {
         return id;

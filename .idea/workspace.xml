@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ca17a0-8340-4e40-8afe-34f6e6aa6540" name="Changes" comment="" />
+    <list default="true" id="d0ca17a0-8340-4e40-8afe-34f6e6aa6540" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/literalura/src/main/java/com/alura/literalura/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/literalura/src/main/java/com/alura/literalura/principal/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/literalura/src/main/java/com/alura/literalura/repository/AutorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/literalura/src/main/java/com/alura/literalura/repository/AutorRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +24,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3A5nP79iYvdjv48TzmFlHRigW3K" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,7 +39,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/souza/Documents/java/desafios/literalura"
   }
 }]]></component>
   <component name="TaskManager">
