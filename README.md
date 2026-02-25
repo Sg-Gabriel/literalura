@@ -28,7 +28,7 @@ Este projeto foca em **boas práticas de backend**, consumo de API e modelagem J
 
 ✅ Buscar livro por título (API externa)
 ✅ Salvar livros no PostgreSQL
-✅ Evitar duplicidade de autores
+✅ Evitar duplicidade de autores e livros
 ✅ Listar livros cadastrados
 ✅ Listar autores cadastrados
 ✅ Buscar autores vivos em determinado ano
